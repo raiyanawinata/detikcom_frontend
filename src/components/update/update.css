@@ -1,0 +1,47 @@
+.bg-custom {
+    background-color: #F4FBFF;
+    
+  }
+  
+  .text-custom2 {
+    color: #007CBD;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 20px;
+    margin-top: 8%;
+
+  }
+
+  .sc-2{
+    margin-top: -90vh;
+   padding-left: 7%;
+   padding-right: -5%;
+   
+  }
+  
+ 
+  /* Desktop */
+  @media (min-width: 1025px) {
+    .logo {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
+  /* iPad */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 767px) {
+    .logo {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  

@@ -1,0 +1,34 @@
+
+  
+  .card-img-top {
+   
+  }
+
+  .bg-transparent{
+    width: 350px;
+    height: 270px;
+    margin-bottom: 10%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17.07px;
+    color: #1B1E28;
+  }
+
+  .card-content {
+    display: flex;
+    flex-direction: column;
+   text-align: left;
+  }
+  .card-text {
+    margin-top: -2vh; /* Jarak antara judul dan teks */
+  }
+  
+  
+  
+  

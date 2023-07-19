@@ -1,0 +1,47 @@
+/* about.css */
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    margin-left: -55%;
+    margin-top: 35vh;
+    margin-bottom: 10vh;
+  }
+  
+  .card-image {
+    width: 329px;
+    height: 210.16px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    margin-left: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Montserrat;
+  }
+  
+  .card-title {
+    margin-bottom: 20px;
+  }
+  
+  .card-text {
+    margin-top: 20px;
+  }
+  
+  .share-text{
+    color:#007CBD; 
+    fontWeight: 400; 
+    fontFamily: Montserrat; 
+    fontSize: 14px;
+    lineHeight: 19px;
+    margin-top: 15px;
+    display: flex;
+  }
+
+  .icon{
+   display: inline-block;
+   margin-left: 5px;
+  }

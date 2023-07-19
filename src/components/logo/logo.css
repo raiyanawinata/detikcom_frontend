@@ -1,0 +1,68 @@
+.bg-custom {
+    background-color: #F4FBFF;
+    
+  }
+  
+  .text-custom {
+    color: #007CBD;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+    margin-top: 7%;
+  }
+  
+  .sc {
+    margin-top: -10%;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .bg-3EB7DD{
+    align-items: center;
+    justify-content: center;
+    background-color: #3EB7DD;
+    color: white;
+    border-radius: 5px;
+    width: 221px;
+    height: 49px;
+    padding: 16px 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: normal;
+    margin-top: -3%;
+    
+  }
+  
+  .btn:active {
+    background-color: #3EB7DD; /* Warna latar belakang tetap saat tombol diklik */
+  }
+  
+  /* Desktop */
+  @media (min-width: 1025px) {
+    .logo {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
+  /* iPad */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 767px) {
+    .logo {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
